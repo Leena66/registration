@@ -1,0 +1,158 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {font-family: Arial, Helvetica, sans-serif;}
+
+* {box-sizing: border-box}
+
+
+header{
+	height:400px;
+	width:100%;
+	border-style:solid;
+	border-width:2px;
+	border-color:black;
+	float:left;
+}
+.style{
+	height:100px;
+	width:19%;
+	float:left;
+	margin:2px;
+	border-style:groove;
+	border-width:2px;
+	background-color:#0FC;
+	border-color:#666;
+}
+
+.li{
+	margin-left:90px;
+}
+#header-div{
+	height:50px;
+	width:40%;
+	margin-top:140px;
+	margin-left:50px;
+	}
+.search{
+	height:50px; 
+	width:20%;
+	float:left;
+	border:groove #CCC 2px;
+	margin-left:10px;
+	/*background-color:#F05;*/	
+}
+
+/* Set a style for all buttons */
+button{
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+	opacity: 0.9;
+}
+
+/*popup css*/
+body {font-family: Arial, Helvetica, sans-serif;}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+/*sign up pop up */
+
+
+#register_form h1 {
+  text-align: center;
+}
+#register_form {
+  width: 100%;
+  margin: 100px auto;
+  padding-bottom: 30px;
+  border: 1px solid #918274;
+  border-radius: 5px;
+  background: white;
+}
+#register_form input {
+  width: 80%;
+  height: 35px;
+  margin: 5px 10%;
+  font-size: 1.1em;
+  padding: 4px;
+  font-size: .9em;
+}
+#reg_btn {
+  height: 35px;
+  width: 80%;
+  margin: 5px 10%;
+  color: white;
+  background: #3B5998;
+  border: none;
+  border-radius: 5px;
+}
+/*Styling for errors on form*/
+.form_error span {
+  width: 80%;
+  height: 35px;
+  margin: 3px 10%;
+  font-size: 1.1em;
+  color: #D83D5A;
+}
+.form_error input {
+  border: 1px solid #D83D5A;
+}
+
+/*Styling in case no errors on form*/
+.form_success span {
+  width: 80%;
+  height: 35px;
+  margin: 3px 10%;
+  font-size: 1.1em;
+  color: green;
+}
+.form_success input {
+  border: 1px solid green;
+}
+#error_msg {
+  color: red;
+  text-align: center;
+  margin: 10px auto;
+}
